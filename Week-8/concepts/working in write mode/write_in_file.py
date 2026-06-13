@@ -1,0 +1,6 @@
+file = open("Week-8\concepts\working in write mode\write2.txt", "w")
+file.write("This is the new written line")
+file.write("This is the second written line")
+file.write("This is the new line\n")
+file.write("Line in new line using \n")
+file.close()

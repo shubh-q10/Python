@@ -1,0 +1,11 @@
+Detailed Comparison Table
+
+Feature                 `list`                       `tuple`                 `set`                                                |
+----------------- | ---------------------------| ------------------------| ------------------------------------
+Type              | List                       | Tuple                   | Set                                                  
+Syntax            | `[1, 2, 3]`                | `(1, 2, 3)`             | `{1, 2, 3}`                                          
+Ordered           | ✅ Yes                     | ✅ Yes                 | ❌ No
+Mutable           | ✅ Yes (can change items)  | ❌ No (immutable)      | ✅ Yes (can add/remove items)                         
+Indexable         | ✅ Yes (`mylist[0]`)       | ✅ Yes (`mytuple[0]`)  | ❌ No                                                 
+Allows Duplicates | ✅ Yes                     | ✅ Yes                 | ❌ No (duplicates auto-removed)                       
+
